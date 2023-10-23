@@ -1,0 +1,121 @@
+:root{
+    --font-title:'Indie Flower';
+    --font-system:'Inter';
+    --font-text1:'Dancing Script';
+    --font-text2:'Josefin Slab';
+    --font-text3:'Sacramento';
+    --primcolor:#19203a;
+    --seccolor:#454E6E;
+    --primcolorgradient:linear-gradient(180deg, rgb(29, 36, 61) 0%, rgba(0,7,34,1) 100%);
+}
+
+.body{
+    background: rgb(25,32,58);
+    background: linear-gradient(180deg, rgba(25,32,58,1) 0%, rgba(0,7,34,1) 100%);
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    font-family: var(--font-system);
+    overflow: scroll;
+    color: white;
+    font-size: 15px;
+}
+
+.header{
+    height: 15vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:var(--seccolor) ;
+    gap: 9%;
+    position: sticky;
+
+}
+
+.top-li{
+    display: flex;
+    flex-direction: row;
+    justify-content:start;
+    width: 100%;
+    gap:12%
+}
+.top-ul{
+    font-size: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.top-logo{
+    height: 100%;
+    margin:2% 0 2% 9%;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:12% 0 20% 0
+}
+
+.title-h1{
+    font-family: var(--font-title);
+    font-size: 3em;
+    font-weight: 600;
+    color: white;
+}
+
+.side-menu{
+    display: none;
+}
+
+.notepad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.notepad-inicio{
+    width: auto;
+    padding: 2em;
+    background-color: #91A9FF;
+    border-radius: 50px;
+    
+}
+
+
+
+
+
+
+.footer{
+    background: var(--seccolor);
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 15vw;
+}
+
+.footer-h2{
+    width: 50%;
+    font-weight: 200;
+    font-size: 1em;
+}
+strong{
+    font-weight: bold;
+}
+.footer-ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.footer-li{
+    font-weight: 200;
+}
