@@ -73,25 +73,23 @@ a{
 
 .notepad{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.notepad-inicio{
+.notepad-start{
+    /* display: none; */
     width: auto;
     padding: 2em;
     background-color: #91A9FF;
     border-radius: 50px;
+    margin-bottom: 40px;
     
 }
 
-
-
-
-
-
 .footer{
     background: var(--seccolor);
-    position: fixed;
+    /* position: fixed; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -118,4 +116,24 @@ strong{
 }
 .footer-li{
     font-weight: 200;
+}
+
+.opt1{
+    font-family: var(--font-text1);
+}
+
+.opt2{
+    font-family: var(--font-text2);
+}
+.opt3{
+    font-family: var(--font-text3);
+}
+.opt4{
+    font-family: var(--font-system);
+}
+
+.textarea{
+    font-family: var(--font-text2);
+    font-size: 14px;
+    resize: none;
 }
